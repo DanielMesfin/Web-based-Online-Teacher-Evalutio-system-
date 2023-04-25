@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+}
+
+/* FOR TABLE DATA DISPLAYING FIELDS */
+
+.profile{
+    float: right;
+    margin-top:-15%;
+    
+}
+.profile>a>img{
+    width: 8rem;
+    clip-path: circle();
+
+}
+.profile div p{
+    color:black;
+    size: 2rem;
+    border: 1px solid rgb(8, 191, 207);
+    border-radius: 0rem;
+    background-color: aqua;
+    height: 1.5rem;
+    width: 10rem;
+}
+.profile .admin_info button{
+    z-index: 1;
+}
+.profile>div>button{
+
+    height: 1.5rem;
+    width: 5rem;
+    border: none;
+    text-decoration: none;
+}
+.profile>div>button:hover{
+    transition: 1s;
+    background-color: rgb(194, 165, 165);
+    color:white;
+}
+
+.form_change_p{
+width: 30%;
+height: 30%;
+background: #fff;
+ /* opacity: 0.5; */
+border-radius: 6px;
+position: absolute;
+top:0%;
+left:50%;
+transform: translate(-50%,-50%) scale(0.1);
+text-align: center;
+padding:0 30px 30px;
+color: #333;
+visibility: hidden;
+display: flex;
+align-items: center;
+justify-content:center;
+transition:transform 0.4s, top 0.4s;
+}
+
+.form_change_p .popup div h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2.5rem;
+    top:25%;
+}
+
+.form_change_p  .popup .btn-submit{
+    width: 20rem;
+    height: 3rem;
+    top: 50%;
+    padding:10px 0;
+    background: #6fd649;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+.form_change_p  .popup input,.table .caption .table-form label input{
+    width:20rem;
+    height: 2rem;
+    border: none;
+    margin-top: 2rem;
+    border-bottom: solid 1px #000;
+}
+.table .caption .table-form label input{
+
+    width: auto;
+    background-color: transparent;
+    color:aliceblue;
+    height: auto;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+
+
+.open-popup{
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+    top: 20%;
+    
+
+} 
+
+.popup img{
+    width: 100px;
+    margin-top:-50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+

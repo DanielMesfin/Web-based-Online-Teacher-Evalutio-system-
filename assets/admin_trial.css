@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.profile{
+    float: right;
+    
+}
+.profile>a>img{
+    height: 4rem;
+    width: 4rem;
+    clip-path: circle();
+
+}
+.profile>div>p{
+    color:black;
+    size: 2rem;
+    border: 1px solid rgb(8, 191, 207);
+    border-radius: 40%;
+    background-color: aqua;
+}
+.profile>div>p:hover{
+    transition: 1s;
+    background-color: rgb(102, 72, 72);
+    color:white;
+}

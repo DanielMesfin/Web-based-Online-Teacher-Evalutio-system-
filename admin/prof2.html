@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+      <title>bs5 edit profile account details - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/prof2.css">
+</head>
+<body>
+<div class="container-xl px-4 mt-4">
+    <nav class="nav nav-borders">
+        <a class="nav-link active ms-0" href="#" target="__blank">Profile</a>
+        <a class="nav-link" href="#" target="__blank">Home</a>
+        <a class="nav-link" href="#" target="__blank">About</a>
+        <a class="nav-link" href="#"  target="__blank">Sign-out</a>
+    </nav>
+    <hr class="mt-0 mb-4">
+    <div class="row ">
+        <div class="col-xl-6 img-prof">
+            <!-- Profile picture card-->
+            <div class="card mb-4 mb-xl-0">
+                <div class="card-header">Profile Picture</div>
+                <div class="card-body text-center">
+                    <!-- Profile picture image-->
+                    <img class="img-account-profile rounded-circle mb-2" src="tinchel_admin.jpg" alt="">
+                    <!-- Profile picture help block-->
+                    <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+                    <!-- Profile picture upload button-->
+                    <button class="btn btn-primary" type="button"><input type="file" accept=".JPG,.PNG ">new-image</input></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8  input-form" >
+            <!-- Account details card-->
+            <div class="card mb-4">
+                <div class="card-header">Account Details</div>
+                <div class="card-body">
+                    <form method="POST" action="edit.php">
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (first name)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputFirstName">First name</label>
+                                <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name"  name="fname">
+                            </div>
+                            <!-- Form Group (middle name)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLastName">middle name</label>
+                                <input class="form-control" id="inputLastName" type="text" placeholder="Enter your Middle name"  name="mname">
+                            </div>
+                        </div>
+                        <!-- Form Row        -->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (Last name )-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputOrgName">Last name</label>
+                                <input class="form-control" id="inputOrgName" type="text" placeholder="Enter your Last name"  name="lname">
+                            </div>
+                            <!-- Form Group (ID)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLocation">ID</label>
+                                <input class="form-control" id="inputLocation" type="text" placeholder="Enter your ID"  name="id">
+                            </div>
+                        </div>
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <!-- Form Group (Password)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputPhone">Password</label>
+                                <input class="form-control" id="inputPhone" type="password" placeholder="Enter New Password"   name="pwd">
+                            </div>
+                            <!-- Form Group (Confirm-Password)-->
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputBirthday">Confirm-Password</label>
+                                <input class="form-control" id="inputBirthday" type="password" name="confirm-Password" placeholder="Confirm-Password" >
+                            </div>
+                        </div>
+                        <!-- Save changes button-->               
+                        <input type="submit" value="Save Changes" class="btn btn-primary" name="update">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

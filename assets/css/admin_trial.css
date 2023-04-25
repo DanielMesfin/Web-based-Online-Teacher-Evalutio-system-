@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.profile{
+    float: right;
+}
+.profile>img{
+    width: 4rem;
+    height: 4rem;
+    clip-path: circle();
+}
+.profile>div>p{
+    color:black;
+    size: 2rem;
+}

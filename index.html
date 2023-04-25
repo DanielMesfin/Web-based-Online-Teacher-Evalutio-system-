@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/remixicons/fonts/remixicon.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>OTES</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" id="home">
+    <!-- NAV -->    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.jpg" width="50px" height="40px" alt="this is logo image" id="login">
+        </a>
+        <h1>OTES</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <ul class="navbar-nav ml-auto"><li navbar-nav ml-auto><button class="btn danger"  data-bs-toggle="modal" data-bs-target="#loginModel" id="btn-login"><img src="./assets/img/C.PNG" alt="this is image" srcset=""width="48px" height="30px"></button></li></ul>
+        </div>
+      </div>
+    </nav>
+    <section id="hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mx-auto">
+            <h1 class="display-3 text-white">Haramaya University Online Teachers Evaluation System </h1>
+            <p>Online Teachers Evaluation System is available Online for all students and teachers to insure the quality of eduction 
+              for this university such that it is one of the most powerful eduction and research center of East Africa. The Talented Teachers role is very huge for the achievement this university  
+            </p>
+          </div>
+          <div class="col-lg-5  " id="form-group">
+            <div class="modal fade" id="loginModel" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h1 class="modal-title " id="exampleModalToggleLabel">LogIn Here </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="php/otes.php" method="post" id="formInput">
+                      <div class="input-group-1 ">
+                        <input type="text" class="form-control  " placeholder="Enter User Id " aria-label="Recipient's username" aria-describedby="button-addon2" name="userName"> <br>
+                          <input type="password" class="form-control" placeholder="Enter Password" aria-label="Recipient's username"aria-describedby="button-addon2" name="password"> <br>
+                        <button class="btn btn-brand col-lg-4 " type="submit" id="button-addon2" name="submit">Log In</button>
+                      </div>
+                   </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- SERVICES -->
+  
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-intro">
+              <h1>Our services</h1>
+              <p>This General Teacher Evaluation Form can be used to assess the teaching strategy used to keep the students engaged in learning session .The template contains both ongoing class observation and after class self-evaluation. 
+                Use the template to assess if the teacher is promoting a conductive learning environment  
+                from the onset of the lesson up to the recap . Next,conduct a short term self-evaluation by using guide questions and ask the teacher about his or her class . 
+              Lastly share your best practice by coaching the teacher and providing some recommendation to improve the educator's teaching strategy    </p>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="service custom-card">
+              <div class="iconbox">
+                <!-- <i class="ri ri-pencil-ruler-2-fill"></i> -->
+                <h1>S</h1>
+              </div>
+              <h4 class="h5">Students</h4>
+              <p>Students may appreciate that their experiences in your course matter to you, and they respond well when they feel that their feedback is valued. Student evaluations of teaching are an important way to measure teaching effectiveness and document instructional development for 
+                a teaching portfolio or the peer review process.</p>
+                <i class="fa-thin fa-users"></i>
+              <a href="" class="custom-link">
+                <span>Read More</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service custom-card">
+              <div class="iconbox">
+                <!-- <i class="ri-stack-fill"></i> -->
+                <h1>T</h1>
+              </div>
+              <h4 class="h5">Teachers</h4>
+              <p>The online evaluation process also frees up the time of the teachers so they can focus on the academic development of the students. The results can be analysed to identify areas of low performance so that teachers can focus on those learning gaps.</p>
+              <a href="" class="custom-link">
+                <span>Read More</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service custom-card">
+              <div class="iconbox">
+                <!-- <i class="ri-bubble-chart-fill"></i> -->
+                <h1>D</h1>
+              </div>
+              <h4 class="h5">Department Head </h4>
+              <p>Electronic assessments allow teachers to quickly evaluate the performance for the group
+                 against the individual. Report-generating capabilities help teachers identify learning 
+                 problem areas for the group and individual students. Online assessments take up less storage
+                space in respect to keeping records than paper.</p>
+              <a href="" class="custom-link">
+                <span>Read More</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service custom-card">
+              <div class="iconbox">
+                <!-- <i class="ri-pen-nib-fill"></i> -->
+                <h1>C</h1>
+              </div>
+              <h4 class="h5">Collage </h4>
+              <p>The term  evaluation  refers   to  a  wide-ranging  collection  of   methodologies,  and  is also   
+                used   to   cover   review   processes   such   as   checklists   as   well   as   empirical judgements 
+                but OTES make it easy due to its nature</p>
+              <a href="" class="custom-link">
+                <span>Read More</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service custom-card">
+              <div class="iconbox">
+                <!-- <i class="ri ri-leaf-fill"></i> -->
+                <h1>U</h1>
+              </div>
+              <h4 class="h5">University </h4>
+              <p>Evaluation is becoming increasingly important, both as a part of the design of online courses
+                 and as a mechanism for quality assurance. In this paper, the issues facing the evaluation of online 
+                 teaching and learning are considered. Different motivations for evaluation are identified, and strategies
+                 for addressing these needs are illustrated.</p>
+              <a href="" class="custom-link">
+                <span>Read More</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service custom-card">
+              <div class="iconbox">
+                <!-- <i class="ri ri-user-2-fill"></i> -->
+                <h1>C</h1>
+              </div>
+              <h4 class="h5">Country </h4>
+              <p>Online teachers evaluation provides good way to be productive of one Country and OTES learning environments have helped teachers get 
+                back to what they love doing most  Teaching. They have provided them with the tools that enable and empower them to focus on the core 
+                learning process of their students while ensuring their 
+                students achieve the desired grades.</p>
+              <a href="" class="custom-link">
+                <span>Read More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- MILESTONE -->
+  
+    <div id="cta">
+      <div class="container">
+        <div class="row gy-4 justify-content-center align-items-center">
+          <div class="col-lg-8">
+            <h2 class="text-white">Let’s create education great togather</h2>
+            <p class="mb-0">Feel free to contact us to contribute your best for a minute.</p>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn btn-brand">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- PORTFOLIO -->
+  
+    <section id="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-intro">
+              <h1>Our porject </h1>
+              <p> Our porject is focusing that validated learning-teaching policies and guidelines for preparing, evaluation and approving instructional materials are vital to give important meaning to educational discourse such as quality teaching and learning, access to good quality education, engaged and transformative learning and meaningful learning outcomes and  inspire the youths with sense of purpose and agency and equip them with the competencies, skills, attitudes and values
+                 they need to create a better future for themselves and those around them.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-lg-4">
+            <div class="porject">
+              <img class="p-img" src="./assets/img/p1.PNG" alt="">
+              <a href="#" class="btn btn-brand">View Project</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row g-3">
+              <div class="col-12">
+                <div class="porject">
+                  <img class="p-img" src="./assets/img/p2.PNG" alt="">
+                  <a href="#" class="btn btn-brand">View Project</a>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="porject">
+                  <img class="p-img" src="./assets/img/p3.PNG" alt="">
+                  <a href="#" class="btn btn-brand">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="porject">
+              <img class="p-img" src="./assets/img/p.PNG" alt="">
+              <a href="#" class="btn btn-brand">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+  
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-intro">
+              <h1>Our Team</h1>
+              <p>Our Team want to solve many problems with every one and believe with changing obstacle to opportunity and full filling the need of our Customer. Dear, your role is great in our Team achievement </p>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <div class="col-lg-3 col-6">
+            <div class="team-member">
+              <div class="img">
+                <img src="./assets/img/team-member01.jpg" alt="">
+                <div class="social-links">
+                  <a href=""><i class="ri ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri ri-instagram-fill"></i></a>
+                </div>
+              </div>
+              <h5>Daniel Mesfin</h5>
+              <p>Team collaboration Manager and Requirement Analyist</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="team-member">
+              <div class="img">
+                <img src="./assets/img/team-member02.jpg" alt="">
+                <div class="social-links">
+                  <a href=""><i class="ri ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri ri-instagram-fill"></i></a>
+                </div>
+              </div>
+              <h5>Bekalu Atto </h5>
+              <p>Team Primary  Manager and control the project Life cycle </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="team-member">
+              <div class="img">
+                <img src="./assets/img/team-member03.jpg" alt="">
+                <div class="social-links">
+                  <a href=""><i class="ri ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri ri-instagram-fill"></i></a>
+                </div>
+              </div>
+              <h5>Savannah Nguyen</h5>
+              <p>Distribution Sales Representative</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="team-member">
+              <div class="img">
+                <img src="./assets/img/team-member04.jpg" alt="">
+                <div class="social-links">
+                  <a href=""><i class="ri ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri ri-instagram-fill"></i></a>
+                </div>
+              </div>
+              <h5>Theresa Webb</h5>
+              <p>Inside Sales Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- MILESTONE -->
+  
+    <section id="milestone">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="milestone-number">
+              <h4>Software Engineer  </h4>
+              <div class="divider"></div>
+              <p class="mb-0">Team members</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="milestone-number">
+              <h4>Software Engineer  </h4>
+              <div class="divider"></div>
+              <p class="mb-0">Team members</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="milestone-number">
+              <h4>Software Engineer  </h4>
+              <div class="divider"></div>
+              <p class="mb-0">Team members</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="milestone-number">
+              <h4>Software Engineer  </h4>
+              <div class="divider"></div>
+              <p class="mb-0">Team members</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- BLOG POSTS -->
+  
+    <section id="blog" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-intro">
+              <h1> Important blog posts of our website</h1>
+              <p>We are providing good opportunity for many citizens the the Country expect from us look one from many example below.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-4 col-sm-8">
+            <article class="blog-post custom-card">
+              <img src="./assets/img/s.jpg" alt="">
+              <div class="content">
+                <a href="#" class="tag">branding</a>
+                <h5> Educational Materials</h5>
+                <p>Educational materials are produced and distributed by the Marketing Authorisation Holder (MAH) of the 
+                  medicinal product and are specific to that medicinal product and technological product</p>
+                <a href="#" class="custom-link">Read More +</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-sm-8">
+            <article class="blog-post custom-card">
+              <img src="./assets/img/s1.jpg" alt="">
+              <div class="content">
+                <a href="#" class="tag">branding</a>
+                <h5>Leadership Training</h5>
+                <p>Leadership training is crucial for any management role. Whether you have a large team or just got your first hire, leadership training can help you be the best possible leader. A strong foundation of leadership
+                   training will help you effectively direct your team towards success. </p>
+                <a href="#" class="custom-link">Read More +</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-sm-8">
+            <article class="blog-post custom-card">
+              <img src="./assets/img/blog-post2.jpg" alt="">
+              <div class="content">
+                <a href="#" class="tag">branding</a>
+                <h5>University  Life</h5>
+                <p>University life is considered as the most important period of students life. students future dreams,
+                   desires and hopes depend upon the life in the university. University life is a period of preparations</p>
+                <a href="#" class="custom-link">Read More +</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- CONTACT -->
+  
+    <section id="contact" class="bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-intro">
+              <h1>Get In Touch With Us </h1>
+              <p>We need your feedback survey for our website it helps us  get direct answers from you to solve and achieve our users need as much as we can that matter mostly the improvement 
+                of our system . Your feedback surveys often help us answer questions about how your feel about our website
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container px-lg-0 bg-light">
+        <div class="row gy-3 gy-lg-0">
+          <div class="col-lg-5 order-lg-last">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3935.9789512798634!2d42.0350754!3d9.4232483!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1656263244699!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+          <div class="col-lg-7 p-lg-5">
+            <form action="./php/comment.php" class="row gy-3 gx-3 contact-form" method="post">
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Enter First Name" name="first_name">
+              </div>
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Enter Last Name" name="middle_name">
+              </div>
+              <div class="form-group col-lg-12">
+                <input type="email" class="form-control" placeholder="Enter Your E-mail Address" name="email">
+              </div>
+              <div class="form-group col-lg-12">
+                <textarea placeholder="Enter Message" class="form-control" rows="5" name="comment"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit"class="btn btn-brand" name="comment">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- FOOTER -->
+  
+    <footer class="py-0 footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <p>For more information from our website you can join the following social media that helps to get absolutely correct information for you . </p>
+                <br><br><br>
+                <div class="social-links">
+                  <a href=""><i class="ri ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri ri-instagram-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-2 offset-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h5>Useful Links</h5>
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">FAQ</a></li>
+                  <li><a href="">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h5>Company</h5>
+                <ul>
+                  <li><a href="">Our team</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">Terms and Conditions</a></li>
+                  <li><a href="">Privacy and Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row gy-3 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">© 2022 Copyright ButterFlys</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">Developed By ButterFlys Team Members, All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/index.js"></script>
+    <!-- C:\Users\Owner\Downloads\booster-starter-main\assets\js\index.js -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+  </html>
